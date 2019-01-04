@@ -1,0 +1,351 @@
+h1 {
+  text-align: center;
+  font-size: 50pt;
+  color: #4d4d4d;
+  text-shadow: 1px 3px black;
+}
+
+.titleBody {
+  font-family: Roboto, Helvetica, sans-serif;
+  margin: 0;
+  background: url(https://geekandsundry.com/wp-content/uploads/2016/11/Mistborn.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.titleMain {
+  text-align: center;
+  padding-top: 80px;
+}
+
+#searchButton {
+  margin-top: 25px;
+  font-size: 20px;
+  width: 150px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color: #4d4d4d;
+  border: 2px solid black;
+}
+
+#addDeleteButton {
+  margin-top: 25px;
+  font-size: 20px;
+  width: 150px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color: #4d4d4d;
+  border: 2px solid black;
+}
+
+#aboutButton {
+  margin-top: 25px;
+  font-size: 20px;
+  width: 150px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color: #4d4d4d;
+  border: 2px solid black;
+}
+
+p {
+  color: #a6a6a6;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 50px;
+}
+
+.aboutBody {
+  font-family: Roboto, Helvetica, sans-serif;
+  margin: 0;
+  background-image: url("mistborn_about.jpeg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.aboutHeader {
+  text-align: center;
+}
+
+.aboutTitle {
+  display: inline-block;
+  width: 85%;
+}
+
+.homeButton {
+  display: inline-block;
+  text-align: center;
+  text-shadow: 1px 3px black;
+  color: #4d4d4d;
+  width: 5%;
+  text-decoration: none;
+}
+
+a {
+  color: #4d4d4d;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #4d4d4d;
+  text-decoration: none;
+}
+
+.searchBody {
+  font-family: Roboto, Helvetica, sans-serif;
+  margin: 0;
+  background: url("mistborn_search.jpeg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.searchHeader {
+  text-align: center;
+}
+
+.searchTitle {
+  display: inline-block;
+  width: 80%;
+  padding-left: 60px;
+}
+
+.searchMain {
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
+}
+
+.searchButtonRow {
+  padding-bottom: 20%;
+}
+
+.searchResults {
+  text-align: center;
+  height: 300px;
+  margin-top: 10px;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 10px;
+  padding: 5px;
+  background: grey;
+  opacity:0.6;
+}
+
+.textbox {
+  color: black;
+  text-align: left;
+  margin: 0px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+#searchCharacter {
+  width:25%;
+  float: left;
+  font-size: 20px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color: #4d4d4d;
+  border: 2px solid black;
+}
+
+#searchJob {
+  width: 25%;
+  float: left;
+  font-size: 20px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color: #4d4d4d;
+  border: 2px solid black;
+}
+
+#searchMetal {
+  width: 25%;
+  float: left;
+  font-size: 20px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color: #4d4d4d;
+  border: 2px solid black;
+}
+
+#searchPower {
+  width: 25%;
+  float: left;
+  font-size: 20px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color: #4d4d4d;
+  border: 2px solid black;
+}
+
+#modal-backdrop {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.85);
+}
+
+#character-search-modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1010;
+  overflow: scroll;
+}
+
+#job-search-modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1010;
+  overflow: scroll;
+}
+
+#metal-search-modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1010;
+  overflow: scroll;
+}
+
+#power-search-modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1010;
+  overflow: scroll;
+}
+
+
+
+.hidden {
+  display: none;
+}
+
+.modal-dialog {
+  width: auto;
+  max-width: 600px;
+  min-width: 350px;
+  min-height: 300px;
+  margin: 40px auto;
+  background-color: #4d4d4d;
+  border-radius: 15px;
+}
+
+.modal-header {
+  position: relative;
+  padding: 10px 20px;
+}
+
+.modal-header h3 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.modal-body {
+  padding: 20px;
+}
+
+.input-element {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.input-element h4 {
+  font-weight: 600;
+  flex: 1 75px;
+  margin-right: 10px;
+}
+
+.input-element input,
+.input-element textarea {
+  height: 40px;
+  flex: 6 200px;
+  padding: 8px;
+  font-size: 20px;
+  border: 2px solid black;
+}
+
+.modalButton {
+  font-size: 25px;
+  background-color: #4d4d4d;
+  color: black;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+
+.add-DeleteBody {
+  font-family: Roboto, Helvetica, sans-serif;
+  margin: 0;
+  background: url("mistborn_addDelete.jpeg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.add-DeleteHeader {
+  text-align: center;
+}
+
+.add-DeleteTitle {
+  display: inline-block;
+  width: 80%;
+  padding-left: 60px;
+}
+
+.add-DeleteMain {
+  text-align: left;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 50px;
+  font-size: 25px;
+}
+
+.section {
+  padding-bottom: 10px;
+  margin-left: 60px;
+  margin-right: 60px;
+  background-color: #404040;
+  opacity:0.9;
+  border: 3px solid black;
+}
+
+.inputSection {
+  text-align: left;
+  display: block;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 2px solid black;
+}
+
+.formInput {
+  padding: 5px;
+  padding-right: 80px;
+  display: inline-block;
+
+}
+
+.formButtons {
+  display: inline-block;
+
+}
